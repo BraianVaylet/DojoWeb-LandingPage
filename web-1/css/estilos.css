@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: rgba(203, 199, 200, 0.93);
+  font-family: 'Dosis', sans-serif;
+  color: rgba(79, 79, 77, 0.96);
+  font-size: 18px; }
+  body .wtf {
+    background: #fff;
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    padding: 30px 0px;
+    overflow: hidden; }
+
+.contenedor1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center; }
+
+.contenedor2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center; }
+
+.titulo1 {
+  font-size: 40px; }
+
+.titulo2, .tituloNombre {
+  font-size: 25px; }
+
+.titulo3 {
+  font-size: 18px; }
+
+.titulo1,
+.titulo2,
+.titulo3,
+.tituloNombre {
+  text-align: center;
+  text-decoration: none;
+  margin: 60px auto;
+  color: rgba(92, 90, 90, 0.95); }
+
+header {
+  background: #fff; }
+  header h1 {
+    font-size: 50px; }
+  header nav {
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+    header nav ul {
+      list-style: none;
+      overflow: hidden; }
+      header nav ul li {
+        float: left; }
+        header nav ul li a {
+          text-decoration: none;
+          color: rgba(79, 79, 77, 0.96);
+          font-size: 20px;
+          display: inline-block;
+          margin: 10px auto;
+          padding: 10px 20px; }
+          header nav ul li a:hover {
+            opacity: 0.5;
+            text-decoration: underline; }
+
+.Acerca-de-nosotros {
+  padding: 20px; }
+
+.contenedor2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between; }
+  .contenedor2 .actividad {
+    width: 45%;
+    margin: 10px; }
+    .contenedor2 .actividad .thumb {
+      width: 100%;
+      margin-bottom: 10px; }
+
+.tabla,
+.dias {
+  margin: 0px auto; }
+  .tabla td,
+  .dias td {
+    text-align: center;
+    padding: 20px; }
+
+table {
+  border-collapse: collapse;
+  width: 1000px;
+  cursor: cell; }
+
+table td {
+  border-collapse: collapse;
+  padding: 30px; }
+
+table tr:hover {
+  background: #ccc; }
+
+table td:hover {
+  background: #000;
+  color: #fff; }
+
+.contenedor2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: rgba(240, 239, 231, 0.92); }
+  .contenedor2 .contenedorH {
+    width: 35%;
+    margin: 10px; }
+    .contenedor2 .contenedorH .imagH {
+      width: 100%;
+      margin-bottom: 10px;
+      margin-bottom: 40px; }
+
+.dojo {
+  margin: 20px auto; }
+
+footer .contacto {
+  padding: 60px 0; }
+
+footer .contacto .titulo2 {
+  font-size: 34px;
+  line-height: 34px;
+  margin-bottom: 40px;
+  font-weight: 300;
+  text-align: center; }
+
+footer .contacto .formulario {
+  /*contenedor padre*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"],
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario select,
+footer .contacto .formulario textarea {
+  border: 2px solid #cecece;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 20px;
+  color: rgba(203, 199, 200, 0.93); }
+  footer .contacto .formulario input[type="text"]:hover,
+  footer .contacto .formulario input[type="email"]:hover,
+  footer .contacto .formulario input[type="text"]:hover,
+  footer .contacto .formulario select:hover,
+  footer .contacto .formulario textarea:hover {
+    border: 2px solid rgba(238, 17, 63, 0.95);
+    opacity: 0.5; }
+  footer .contacto .formulario input[type="text"]:focus,
+  footer .contacto .formulario input[type="email"]:focus,
+  footer .contacto .formulario input[type="text"]:focus,
+  footer .contacto .formulario select:focus,
+  footer .contacto .formulario textarea:focus {
+    border: 2px solid rgba(238, 17, 63, 0.95);
+    opacity: 0.8; }
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"],
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario select {
+  width: 40%;
+  margin: 15px 20px; }
+
+footer .contacto .formulario textarea {
+  width: 100%;
+  height: 100px;
+  min-height: 100px;
+  max-height: 200px;
+  margin: 15px 20px; }
+
+footer .contacto .formulario .boton {
+  margin: auto;
+  /* para centrarlo */
+  background: rgba(92, 90, 90, 0.95);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 15px 40px;
+  opacity: 0.5; }
+
+footer .contacto .formulario .boton:hover {
+  opacity: 1; }
+
+/* ---- ---- FOOTER (redes sociales)---- ---- */
+footer .redes-sociales {
+  background: rgba(92, 90, 90, 0.95);
+  padding: 40px 0px; }
+
+footer .redes-sociales .contenedor {
+  display: flex;
+  justify-content: center; }
+
+footer .redes-sociales a {
+  color: #fff;
+  text-align: center;
+  width: 100px;
+  display: block;
+  padding: 15px 0px;
+  border-radius: 20px;
+  font-size: 30px;
+  margin: 0px 20px; }
+
+/* colores originales, sacados de: https://brandcolors.net/ */
+footer .redes-sociales .facebook:hover {
+  background: #3b5998; }
+
+footer .redes-sociales .google-mas:hover {
+  background: #dd4b39; }
+
+footer .redes-sociales .instagram:hover {
+  background: #833ab4; }
+
+footer .redes-sociales .youtube:hover {
+  background: #cd201f; }
+
+footer .redes-sociales .whatsapp:hover {
+  background: #25d366; }
+
+/*# sourceMappingURL=estilos.css.map */
