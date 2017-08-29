@@ -1,4 +1,6 @@
-.Acerca-de-nosotros {
-  padding: 20px; }
+.contenedorH .texto {
+  margin: 20px; }
+  .contenedorH .texto ul {
+    list-style: none; }
 
 /*# sourceMappingURL=main.css.map */

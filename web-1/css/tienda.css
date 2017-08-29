@@ -1,0 +1,20 @@
+.contenedor2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between; }
+  .contenedor2 .productosK,
+  .contenedor2 .productosCF,
+  .contenedor2 .productosB {
+    width: 28%;
+    margin: 10px; }
+    .contenedor2 .productosK .thumb,
+    .contenedor2 .productosCF .thumb,
+    .contenedor2 .productosB .thumb {
+      width: 100%;
+      margin-bottom: 10px; }
+
+.producto h3 {
+  text-decoration: underline; }
+
+/*# sourceMappingURL=tienda.css.map */

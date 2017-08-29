@@ -5,11 +5,140 @@
   background: $colorBaseBlanco2;
     .contenedorH {
       width: 35%;
-      margin: 10px;
       .imagH {
         width: 100%;
-        margin-bottom: 10px;
-        margin-bottom: 40px;
+        margin: 40px 20px;
       }
     }
+  }
+
+.data {
+  width: 50%;
+  max-width: 500px;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 20px;
+  background: $colorBaseBlanco1;
+  border-radius: 20px;
+}
+
+.imagH .blanco{
+
+  padding: 10px;
+  border: 2px solid $colorBaseGris;
+  background: #fff;
+  border-radius: 20px;
+  opacity: 0.8;
+  &:hover {
+    border: 2px solid #fff;
+    opacity: 1;
+  }
+}
+
+.imagH .amarillo{
+  padding: 10px;
+  border: 2px solid $colorBaseGris;
+  background: rgba(221, 219, 31, 0.8);
+  border-radius: 20px;
+  opacity: 0.8;
+  &:hover {
+    border: 2px solid rgba(221, 219, 31, 0.8);
+    opacity: 1;
+  }
+}
+
+.imagH .verde{
+  padding: 10px;
+  border: 2px solid $colorBaseGris;
+  background: rgba(37, 152, 23, 0.8);
+  border-radius: 20px;
+  opacity: 0.8;
+  &:hover {
+    border: 2px solid rgba(37, 152, 23, 0.8);
+    opacity: 1;
+  }
+}
+
+.imagH .azul{
+  padding: 10px;
+  border: 2px solid $colorBaseGris;
+  background: rgba(26, 51, 223, 0.8);
+  border-radius: 20px;
+  opacity: 0.8;
+  &:hover {
+    border: 2px solid rgba(26, 51, 223, 0.8);
+    opacity: 1;
+  }
+}
+
+.imagH .marron{
+  padding: 10px;
+  border: 2px solid $colorBaseGris;
+  background: rgba(105, 60, 24, 0.8);
+  border-radius: 20px;
+  opacity: 0.8;
+  &:hover {
+    border: 2px solid rgba(105, 60, 24, 0.8);
+    opacity: 1;
+  }
+}
+
+.imagH .negro{
+  padding: 10px;
+  border: 2px solid $colorBaseGris;
+  background: rgba(3, 3, 3, 0.8);
+  border-radius: 20px;
+  opacity: 0.8;
+  &:hover {
+    border: 2px solid rgba(3, 3, 3, 0.8);
+    opacity: 1;
+  }
+}
+
+.imagH .violeta{
+  padding: 10px;
+  border: 2px solid $colorBaseGris;
+  background: rgba(97, 27, 166, 0.8);
+  border-radius: 20px;
+  opacity: 0.8;
+  &:hover {
+    border: 2px solid rgba(97, 27, 166, 0.8);
+    opacity: 1;
+  }
+}
+
+.imagH .naranja{
+  padding: 10px;
+  border: 2px solid $colorBaseGris;
+  background: rgba(250, 157, 0, 0.8);
+  border-radius: 20px;
+  opacity: 0.8;
+  &:hover {
+    border: 2px solid rgba(250, 157, 0, 0.8);
+    opacity: 1;
+  }
+}
+
+.imagH .rojo{
+  padding: 10px;
+  border: 2px solid $colorBaseGris;
+  background: rgba(250, 0, 0, 0.8);
+  border-radius: 20px;
+  opacity: 0.8;
+  &:hover {
+    border: 2px solid rgba(250, 0, 0, 0.8);
+    opacity: 1;
+  }
+}
+
+.imagH .byr{
+  padding: 10px;
+  border: 2px solid rgba(250, 0, 0, 0.8);
+  background: #fff;
+  border-radius: 20px;
+  opacity: 0.8;
+  &:hover {
+    border: 2px solid rgba(250, 0, 0, 0.8);
+    opacity: 1;
+  }
 }

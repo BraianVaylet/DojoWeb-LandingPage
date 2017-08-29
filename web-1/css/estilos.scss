@@ -2,7 +2,8 @@
 $colorBaseBlanco1: #fff;
 $colorBaseBlanco2: rgba(240, 239, 231, 0.92);
 $colorBaseGris: rgba(203, 199, 200, 0.93);
-$colorPrimario: rgba(238, 17, 63, 0.95);
+$colorPrimario: #0f0f0f;
+$colorFocus: #000;
 $colorSecundario: rgba(92, 90, 90, 0.95);
 $colorTexto: rgba(79, 79, 77, 0.96);
 
@@ -17,7 +18,7 @@ body {
   font-family: 'Dosis', sans-serif;
   color: $colorTexto;
   font-size: 18px;
-  .wtf {
+  .contenedor {
     background: $colorBaseBlanco1;
     width: 90%;
     max-width: 1500px;
@@ -25,6 +26,16 @@ body {
     padding: 30px 0px;
     overflow: hidden;
   }
+}
+
+.contenedor-contacto {
+  padding: 20px;
+  // background: $colorBaseBlanco1;
+  // width: 90%;
+  // max-width: 1500px;
+  // margin: auto;
+  // padding: 30px 0px;
+  // overflow: hidden;
 }
 
 .contenedor1 {
@@ -41,27 +52,41 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     text-align: center;
+    background: $colorSecundario;
+}
+
+.contenedorH {
+  background: $colorBaseBlanco2;
 }
 
 
 //titulos
 .titulo1 {
   font-size: 40px;
+  margin: 60px auto;
 }
 .titulo2, .tituloNombre {
   font-size: 25px;
+  margin: 60px auto;
 }
 .titulo3 {
   font-size: 18px;
+  margin: 30px auto;
 }
+.titulo4 {
+  font-size: 18px;
+  margin: 30px auto;
+}
+
 
 .titulo1,
 .titulo2,
 .titulo3,
+.titulo4,
 .tituloNombre {
   text-align: center;
   text-decoration: none;
-  margin: 60px auto;
+  // margin: 30px auto;
   color: $colorSecundario;
 }
 
@@ -73,5 +98,5 @@ body {
 @import "horarios";
 @import "historia";
 @import "dojo";
-@import "sidebar";
 @import "footer";
+@import "tienda";

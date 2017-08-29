@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,KAAM;EACJ,MAAM,EAAE,SAAS",
+"mappings": "AAAA,KAAM;EACJ,MAAM,EAAE,SAAS;EACjB,gBAAW;IACT,aAAa,EAAE,IAAI;IACnB,UAAU,EAAE,GAAG",
 "sources": ["dojo.scss"],
 "names": [],
 "file": "dojo.css"

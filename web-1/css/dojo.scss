@@ -1,3 +1,28 @@
 .dojo {
   margin: 20px auto;
+  .logos {
+    padding: 20px;
+    margin: 20px;
+    img {
+      margin-left: 10px;
+    }
+  }
+  .direccion {
+    background: $colorBaseBlanco2;
+    img {
+      border-radius: 20px;
+    }
+    a {
+      text-decoration: none;
+      color: $colorTexto;
+      font-size: 20px;
+      &:hover {
+        background: $colorPrimario;
+        color: $colorBaseBlanco1;
+        text-decoration: underline;
+        padding: 20px;
+        border-radius: 20px;
+      }
+    }
+  }
 }

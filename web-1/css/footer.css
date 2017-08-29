@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$colorBaseGris".
-        on line 29 of C:\Users\Braian\Desktop\dWeb\CursoPHP-comunidadIT\webInstitucional\css\footer.scss
+        on line 39 of C:\Users\Braian\Desktop\dWeb\CursoPHP-comunidadIT\Proyectos\web-1\css\footer.scss
 
-24: footer .contacto .formulario textarea {
-25:   border: 2px solid #cecece;
-26:   border-radius: 5px;
-27:   padding: 15px 20px;
-28:   font-size: 20px;
-29:   color: $colorBaseGris;
-30:   &:hover {
-31:     border: 2px solid $colorPrimario;
-32:     opacity: 0.5;
-33:   }
-34:   &:focus {
+34: .formulario .contacto-actividad .aikido {
+35:   border-radius: 6px;
+36: }
+37: 
+38: .formulario .label-radio {
+39:   background: $colorBaseGris;
+40:   opacity: 0.8;
+41:   color: #fff;
+42:   padding: 10px;
+43:   text-align: center;
+44:   width: 45%;
 
 Backtrace:
-C:\Users\Braian\Desktop\dWeb\CursoPHP-comunidadIT\webInstitucional\css\footer.scss:29
+C:\Users\Braian\Desktop\dWeb\CursoPHP-comunidadIT\Proyectos\web-1\css\footer.scss:39
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$colorBaseGris\".\A         on line 29 of C:\Users\Braian\Desktop\dWeb\CursoPHP-comunidadIT\webInstitucional\css\footer.scss\A \A 24: footer .contacto .formulario textarea {\A 25:   border: 2px solid #cecece;\A 26:   border-radius: 5px;\A 27:   padding: 15px 20px;\A 28:   font-size: 20px;\A 29:   color: $colorBaseGris;\A 30:   &:hover {\A 31:     border: 2px solid $colorPrimario;\A 32:     opacity: 0.5;\A 33:   }\A 34:   &:focus {"; }
+  content: "Error: Undefined variable: \"$colorBaseGris\".\A         on line 39 of C:\Users\Braian\Desktop\dWeb\CursoPHP-comunidadIT\Proyectos\web-1\css\footer.scss\A \A 34: .formulario .contacto-actividad .aikido {\A 35:   border-radius: 6px;\A 36: }\A 37: \A 38: .formulario .label-radio {\A 39:   background: $colorBaseGris;\A 40:   opacity: 0.8;\A 41:   color: #fff;\A 42:   padding: 10px;\A 43:   text-align: center;\A 44:   width: 45%;"; }

@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <!--linea de codigo para agregar el icono -->
+      <link rel="shortcut icon" type="image/x-icon" href="imagenes/icono.ico">
+      <!--linea de cod para agregar fuente desde google fonts-->
+      <link href="https://fonts.googleapis.com/css?family=Dosis:400,500" rel="stylesheet">
+      <!-- boostrap -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+      <!--linea de cod para agregar estilos css-->
+      <link rel="stylesheet" href="css/estilos.css">
+      <!--para ajustar a dispositivos moviles-->
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      <!-- font-awesome.min esta el codigo comprimido en 4 lineas, pesa menos-->
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <!--para usar la simbologia como las comas y ñ-->
+        <meta charset="utf-8">
+        <title>Southern Warriors</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <!-- ENCABEZADO -->
+      <header>
+        <div class="contenedor1">
+            <div class="imagLogo">
+              <img src="imagenes/logo.png" width="300" alt="logo">
+            </div>
+            <div class="titulo">
+              <h1>Southern Warriors</h1>
+            </div>
+        </div>
+        <div class="contenedor1">
+        <!-- MENU -->
+          <nav>
+            <ul>
+              <li><a href="#nosotros">Acerca de</a></li>
+              <li><a href="#actividades">Disciplinas</a></li>
+              <li><a href="#horarios">Horarios</a></li>
+              <li><a href="#tienda">Tienda</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- SECCION PRINCIPAL -->
+      <section class="main" id="main">
+        <div class="contenedor1">
+          <div class="imagen">
+            <img id="inicio" src="imagenes/principal/principal (1).jpg" width="100%" alt="">
+          </div>
+          <div class="Acerca-de-nosotros">
+              <!-- ARTICULO PRINCIPAL -->
+              <h2 id="nosotros" class="titulo1">Southern Warriors</h2>
+              <h4 class="titulo3">Bahía Blanca</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <h3 class="titulo2">Normas Y Reglas del Dojo</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </section>
+      <section class="actividades" id="actividades">
+          <h3 class="titulo2">ACTIVIDADES </h3>
+          <!-- SIN BOOSTRAP-->
+          <div class="contenedor2">
+              <div class="actividad">
+                  <div class="thumb">
+                      <img src="imagenes/karate/karate (1).jpg" width="500" height="400" alt="imagen de karate-do">
+                  </div>
+                  <div class="descripcion">
+                        <a href="#karate" class="tituloNombre">Karate - Do</a>
+                        <p class="contenido">Instructor: Gustavo Gonzal</p>
+                        <p class="contenido">Grado: 8 dan</p>
+                  </div>
+              </div>
+              <div class="actividad">
+                  <div class="thumb">
+                      <img src="imagenes/bjj/bjj (1).jpg" width="500" height="400" alt="imagen de jiu-jitsu">
+                  </div>
+                  <div class="descripcion">
+                        <a href="#bjj" class="tituloNombre">Jiu-Jitsu</a>
+                        <p class="contenido">Instructor: Facundo Gota</p>
+                        <p class="contenido">Grado: 3 dan</p>
+                  </div>
+              </div>
+              <div class="actividad">
+                  <div class="thumb">
+                      <img src="imagenes/judo/judo (1).jpeg" width="500" height="400" alt="imagen de Judo">
+                  </div>
+                  <div class="descripcion">
+                        <a href="#judo" class="tituloNombre">Judo</a>
+                        <p class="contenido">Instructor: Facundo Gota</p>
+                        <p class="contenido">Grado: 4 dan</p>
+                  </div>
+              </div>
+              <div class="actividad">
+                  <div class="thumb">
+                      <img src="imagenes/aikido/aikido (1).jpg" width="500" height="400" alt="imagen de Aikido">
+                  </div>
+                  <div class="descripcion">
+                        <a href="#aikido" class="tituloNombre">Aikido</a>
+                        <p class="contenido">Instructor: Pedro Martin</p>
+                        <p class="contenido">Grado: 6 dan</p>
+                  </div>
+              </div>
+          </div>
+
+      </section>
+      <section class="horarios" id="horarios">
+        <div class="contenedor1">
+            <h2 class="titulo2">HORARIOS</h2>
+            <table class="tabla">
+                <tr> <!--etiqueta de fila-->
+                    <th> </th>
+                    <th>Lunes</th> <!--etiqueta de columnas th le cambia el estilo (encabezado)-->
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+                <tr>
+                    <td>Karate-do</td>
+                    <td>10:00-12:00</td>
+                    <td>20:00-22:00</td>
+                    <td>10:00-12:00</td>
+                    <td>20:00-22:00</td>
+                    <td>10:00-12:00</td>
+                </tr>
+                <tr>
+                    <td>Jiu-Jitsu</td>
+                    <td>20:00-22:00</td>
+                    <td>10:00-14:00</td>
+                    <td>20:00-22:00</td>
+                    <td>10:00-14:00</td>
+                    <td>20:00-22:00</td>
+                </tr>
+                <tr>
+                    <td>Judo</td>
+                    <td>08:00-10:00</td>
+                    <td>18:00-20:00</td>
+                    <td>08:00-10:00</td>
+                    <td>18:00-20:00</td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td>Aikido</td>
+                    <td> </td>
+                    <td>08:00-10:00</td>
+                    <td>15:00-17:00</td>
+                    <td>08:00-10:00</td>
+                    <td>15:00-17:00</td>
+                </tr>
+            </table>
+
+        </div>
+      </section>
+      <section class="historia">
+        <div class="contenedor1">
+          <h3 id="karate" class="tituloNombre">Karate-Do</h3>
+          <div class="contenedorH">
+            <div class="imagH">
+              <img src="imagenes/karate/karate (2).jpg" width="500" height="400" alt="imagen de Karate-do">
+              <img src="imagenes/karate/karate (3).jpg" width="500" height="400" alt="imagen de Karate-do">
+            </div>
+            <div class="data">
+              <img src="imagenes/logos/karateLogo.jpg" width="150" alt="Logo Karate Shotokan">
+              <h4 class="titulo4">Datos</h4>
+              <p>Nombre: Karate-Do</p>
+              <p>Estilo: Escuela Shotokan</p>
+              <p>Gran Maestro: Gichin Funakoshi y Masatoshi Nakayama</p>
+              <p>Origen: Japon</p>
+              <p>Bases: golpes de puños con mano cerrada/abierta, patadas, barridos, proyrcciones</p>
+              <p>Competitivo: Si - Torneos Abiertos y Propios</p>
+              <p>Modalidad de los Torneos: Katas y Kumite - por Puntaje</p>
+            </div>
+            <div class="texto">
+              <h4 class="titulo4">Historia</h4>
+              <p>El karate do es un arte marcial originario de la isla de Okinawa. El karate literalmente significa "mano vacía", en tanto que do significa "camino". Este concepto está en directa conexión con los principios del budismo zen, que busca el vacío del corazón, de los deseos personales, y de la vanidad a través del perfeccionamiento del arte. Pese a ser el karate originario de Okinawa, sin lugar a dudas posee influencias chinas, las que fueron traídas por medio de embajadores, comerciantes, y navegantes desde la provincia China de Fujian. Además los miembros de la clase alta de Okinawa eran frecuentemente enviados a China a estudiar, los cuales aprendían las técnicas chinas de combate.</p>
+              <p>El karate fue referido por primera vez en 1722 por Sakugawa, quien estudió técnicas marciales en china, y que posteriormente enseñó un arte marcial denominado karate-no-sakugawa. Posteriormente alrededor del año 1820, Sokon Matsumura, enseñó una síntesis de las técnicas de sakugawa, y de las artes marciales chinas. Es él quien fundó el estilo Shorin-Ryu del karate. Hacia mediados del siglo XIX, Funakoshi introdujo el karate en Japón, modernizándolo con el fin de difundirlo en el país. Este período resulta ser turbulento en la historia de Japón, en donde cabe mencionar la anexión del grupo de islas de Okinawa en el año 1874, y posteriormente la guerra Ruso-Japonesa entre 1904 y 1905, así como el auge del expansionismo japonés (1905-1945). Lo anterior hizo que el karate se difundiera en otros países del mundo.</p>
+              <p>Las principales características del karate, son los distintos tipos de patadas, golpes de puños y de codos, y las posturas. Éstas últimas son de gran importancia, ya que son la fuente de poder para generar gran parte las técnicas marciales para derrotar al oponente. Otro aspecto de gran importancia en el karate, son los llamados "kata", cada uno de los cuales constituye un conjunto de posturas que simulan un combate; adoptando tanto técnicas defensivas como ofensivas. Es así como existen katas de bloqueos, de golpes de puño, de golpes de codo, etc.
+              Originalmente el karate no tenía categorías de identificación para los practicantes, no obstante cuando empezó a difundirse a lo largo del mundo, las escuelas empezaron usar los cinturones como elemento de diferenciación. Es así como hoy en día se tienen cinturones de distintos colores según el nivel del alumno: rojo, amarillo, naranjo, verde, azul, morado, café, y finalmente el famoso cinturón negro para los alumnos de karate más avanzados.</p>
+              <p>Hoy en día existen muchos estilos de karate; los cuales se dividen en tradicionales y no tradicionales. Los estilos tradicionales, se basan en desarrollar en conjunto con las técnicas marciales, los aspectos que nos llevan a superarnos interiormente como seres humanos; poniendo énfasis en las posturas físicas tradicionales, y las actitudes personales que se deben tener con los compañeros de clase. Los estilos de karate no tradicional o karate deportivo, se basan en la disciplina como una herramienta práctica para la defensa personal; más que como una tradición para alcanzar la superación.</p>
+            </div>
+            <div class="categorias">
+              <h4 class="titulo4">Categorias</h4>
+              <div class="imagH">
+                <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="blanco">
+                <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="amarillo">
+                <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="verde">
+                <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="azul">
+                <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="marron">
+                <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="negro">
+              </div>
+            </div>
+            <div class="video">
+              <h4 class="titulo4">Torneos</h4>
+              <iframe width="854" height="480" src="https://www.youtube.com/embed/w9kxtJpRmw4" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+          </div>
+          <h3 id="bjj" class="tituloNombre">jiu-jitsu</h3>
+          <div class="contenedorH">
+            <div class="imagH">
+              <img src="imagenes/bjj/bjj (4).jpg" width="500" height="400" alt="imagen de Jiu-Jitsu">
+              <img src="imagenes/bjj/bjj (8).jpg" width="500" height="400" alt="imagen de Jiu-Jitsu">
+            </div>
+            <div class="data">
+              <img src="imagenes/logos/bjjLogo.jpg" width="150" alt="Logo BJJ Gracie">
+              <h4 class="titulo4">Datos</h4>
+              <p>Nombre: BJJ - Brazilian Jiu-Jitsu</p>
+              <p>Genero: Tradicional y Moderno </p>
+              <p>Estilo: Escuela Gracie</p>
+              <p>Gran Maestro: Mitsuyo Maeda</p>
+              <p>Origen: Japon/Brasil</p>
+              <p>Bases: Inmovilizaciones, Sumisiones, Estrangulaciones</p>
+              <p>Competitivo: Si - Torneos Propios / MMA</p>
+              <p>Modalidad de los Torneos: Luchas - por Puntaje</p>
+            </div>
+            <div class="texto">
+              <h4 class="titulo4">Historia</h4>
+              <p>El Jiu-Jitsu brasileño, conocido internacionalmente por su traducción al inglés, Brazilian Jiu Jitsu, y sus siglas: BJJ, es un arte marcial, deporte o forma de defensa personal, que se centra en las técnicas que se originan en el jiu-jitsu japonés, y se derivan del judo tal y como era practicado en Japón en el siglo XIX; (actualmente, estas técnicas son dejadas de lado por estas artes marciales aunque se suelen enseñar en algunos dojos). Pero mejorado especialmente en lo que respecta a la lucha cuerpo a cuerpo en el suelo. De ahí viene la frase “el suelo es recién el comienzo”. Fue conocido en sus inicios como Gracie Jiu-Jitsu (debido a que fue desarrollado por una familia brasileña apellidada Gracie, de antepasados escoceses, con Helio Gracie como precursor de esta disciplina). Mitsuyo Maeda (Hirosaki, Japón 1878. Belem, Brasil 1941.) nacido en el norte del Japón, era practicante de la escuela de Judo Kodokan. Emigró al Brasil en la década de 1910. Dada la ayuda que recibió al llegar a Brasil por parte de Gastão Gracie, empresario brasileño, decidió retribuir tal generosidad dando clases de judo a Carlos, el hijo de Gastão, Carlos, quien luego enseñó a sus hermanos, entre quienes se encontraba Hélio Gracie.
+             </p>
+             <p>Hélio, debido a su contextura débil, adaptó el ángulo de aplicación de los movimientos para que éstos se basaran más en la técnica de la ejecución y no tanto en la potencia física del ejecutor. De esta manera nació el jiu jitsu Gracie o Jiu Jitsu brasileño. El Jiu Jitsu brasileño ha sabido preservar todo la riqueza de técnicas en el suelo que el Judo moderno ha ido eliminando por considerarlas este último o bien poco vistosas en televisión al ser el Judo un deporte olímpico o por considerarlas peligrosas.
+             El Jiu Jitsu brasileño no solo ha preservado esa riqueza original de la arte marcial originalmente practicada en el Japón sino que la ha mejorado impregnandola de la creatividad e impronta del carácter brasileño (podemos apreciar ciertos movimientos de fluidez propios del capoeira, por ejemplo).</p>
+            </div>
+            <div class="titulo3">
+              <h4 class="titulo4">Categorias</h4>
+            </div>
+            <div class="imagH">
+              <img src="imagenes/otros/faixa.png" width="100" alt="categorias" class="blanco">
+              <img src="imagenes/otros/faixa.png" width="100" alt="categorias" class="azul">
+              <img src="imagenes/otros/faixa.png" width="100" alt="categorias" class="violeta">
+              <img src="imagenes/otros/faixa.png" width="100" alt="categorias" class="marron">
+              <img src="imagenes/otros/faixa.png" width="100" alt="categorias" class="negro">
+              <img src="imagenes/otros/faixa.png" width="100" alt="categorias" class="rojo">
+            </div>
+            <div class="video">
+              <h4 class="titulo4">Torneos</h4>
+              <iframe width="854" height="480" src="https://www.youtube.com/embed/9oIrfoAkHTk" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <h3 id="judo" class="tituloNombre">Judo</h3>
+          <div class="contenedorH">
+            <div class="imagH">
+              <img src="imagenes/judo/judo (2).jpg" width="500" height="400" alt="imagen de Judo">
+              <img src="imagenes/judo/judo (3).jpg" width="500" height="400" alt="imagen de Judo">
+            </div>
+            <div class="data">
+              <img src="imagenes/logos/judoLogo.jpg" width="150" alt="Logo Judo Kodokan">
+              <h4 class="titulo4">Datos</h4>
+              <p>Nombre: Judo</p>
+              <p>Genero: Gendai Budō</p>
+              <p>Estilo: Escuela Kodokan</p>
+              <p>Gran Maestro: Kyūzō Mifune y Jigorō Kanō</p>
+              <p>Origen: Japon</p>
+              <p>Bases: proyecciones, barridos, luxaciones, inmovilizaciones, estrangulaciones</p>
+              <p>Competitivo: Si - Torneos Propios / Olimpico</p>
+              <p>Modalidad de los Torneos: Luchas - por Puntaje</p>
+            </div>
+            <div class="texto">
+              <h4 class="titulo4">Historia</h4>
+              <p>Que es el Judo, todo depende de a quien se le pregunte, el Judo es muchas cosas a la vez , es un deporte, es un arte marcial, es un medio de defensa personal, es una actividad social pero lo que es la base, es que es todo esto junto, lo que nos permite obtener una forma de vida.
+                En el año 1882 el Doctor Jigoro Kano, (presidente de la Universidad de Educación en Tokyo) crea el Judo como una combinación y un refinamiento de lo mejor de las técnicas antiguas del Jujutsu.
+                En las olimpiadas de 1964 el Judo es admitido como un deporte olímpico, es el primer arte marcial que se introdujo en las olimpiadas y hoy en día ya es practicado por millones de personas alrededor del mundo.
+                Con el perfeccionamiento del Judo y como todo deporte profesional, este tiene una serie de reglas tanto sea para poder competir, como para brindar un marco de seguridad al desarrollar este deporte.
+                El Judo permite poner a prueba las habilidades de los Judocas tanto a nivel amateur como a nivel profesional, generando siete diferentes divisiones por sexo divididas por la edad del participante.</p>
+              <p>El Judo fue el creador del sistema de rangos que se utiliza hoy en día en la mayoría de las otras artes marciales, para poder reconocer el grado de conocimiento capacidad y liderazgo de cada Judoca.
+                A diferencia de muchos deportes en el que enfrenta tu fuerza contra la fuerza de otro equipo, con el judo se intenta aprovechar la fuerza del oponente contra sí mismo. La idea base en la creación del Judo, fue la de generar un arte marcial donde la principal técnica seria el bloquear al adversario utilizando su propia fuerza haciendo que este se agote hasta poder llegar a neutralizarlo en el suelo por medio de:
+                <ul>
+                  <li>llaves de estrangulación</li>
+                  <li>luxación</li>
+                  <li>inmovilización</li>
+                </ul>
+              </p>
+              <p>Una parte importante a resaltar del Judo es que pueden entrenar y practicar juntas, personas de cualquier edad y sexo y también personas con capacidades diferentes permitiendo una gran integración y el desarrollo de un gran respeto tanto por uno mismo como por el prójimo.
+                 El aprendizaje del Judo fortalece la auto-confianza, la concentración y la capacidad de liderazgo, así como la coordinación física, poder y flexibilidad.</p>
+            </div>
+            <div class="titulo3">
+             <h4>Categorias</h4>
+           </div>
+            <div class="imagH">
+               <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="blanco">
+               <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="amarillo">
+               <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="naranja">
+               <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="verde">
+               <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="azul">
+               <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="marron">
+               <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="negro">
+               <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="byr">
+               <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="rojo">
+             </div>
+             <div class="video">
+               <h4 class="titulo4">Torneos</h4>
+               <iframe width="854" height="480" src="https://www.youtube.com/embed/AYvP_d9c1ns" frameborder="0" allowfullscreen></iframe>
+             </div>
+          </div>
+          <h3 id="aikido" class="tituloNombre">Aikido</h3>
+          <div class="contenedorH">
+            <div class="imagH">
+              <img src="imagenes/aikido/aikido (2).jpg" width="500" height="400" alt="imagen de Aikido">
+              <img src="imagenes/aikido/aikido (3).jpg" width="500" height="400" alt="imagen de Aikido">
+            </div>
+            <div class="data">
+              <img src="imagenes/logos/aikidoLogo.jpg" width="150" alt="Logo Aikido Iwama Ryu">
+              <h4 class="titulo4">Datos</h4>
+              <p>Nombre: Aikido</p>
+              <p>Genero: Híbrido - Luctatorio y con armas</p>
+              <p>Estilo: Iwama Ryu</p>
+              <p>Gran Maestro: Morihei Ueshiba</p>
+              <p>Origen: Japon</p>
+              <p>Bases: Luxaciones articulares, lanzamientos, inmovilizaciones/ sumisiones, estrangulaciones, golpes a puntos vulnerables y vitales, manejo de varias armas tradicionales.</p>
+              <p>Competitivo: No</p>
+            </div>
+            <div class="texto">
+              <p>
+                <p>Origen:El 14 de diciembre de 1883 nace en la pequeña ciudad de Tanabe, cerca de Osaka - Japón, el maestro Morihei Ueshiba, una persona de contextura muy pequeña, débil y que caía enfermo con frecuencia. Su padre, preocupado por su salud, le hace practicar sumo; con el tiempo crece su interés por el Budo - Artes Marciales - y pasa su tiempo practicando las antiguas técnicas de los guerreros samurais (yawara, aikijutsu, kenjutsu, tanto jutsu, naginata jutsu, tambo-jojutsu (Bo) y otras).<br>¿Que es el Aikido? <br>Para 1924 el maestro Ueshiba comienza a ser visitado por diferentes practicantes de Artes Marciales que buscaban enriquecerse con sus conocimientos técnicos y espirituales en el Budo, sumado el interés en él de la autoridades gubernamentales, militares, nobles, y políticos destacados.
+                Para esta época, Ueshiba comprende que su enseñanza debe ser pensada para conseguir y mantener la paz entre los seres humanos, sentirse en armonía, aceptar y favorecer la conciencia y el amor que no conoce enemigos; y ésta es la razón por la que el maestro Ueshiba decide llamar Aikido a su arte.</p>
+                <p>Así, pues Aikido es una vía. Se entiende como una forma de vida para mejorar no solo mente y cuerpo sino también nuestro espíritu. Es muy difícil hablar intelectualmente del Aikido y definirlo en términos de desarrollo físico, proceso psíquico, o valor moral. Es todo eso a la vez. La mejor respuesta para comprenderlo, captarlo y estudiarlo es, sin duda, practicándolo.</p>
+            </div>
+            <div class="titulo3">
+              <h4>Categorias</h4>
+            </div>
+            <div class="imagH">
+              <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="blanco">
+              <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="amarillo">
+              <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="naranja">
+              <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="azul">
+              <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="violeta">
+              <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="verde">
+              <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="rojo">
+              <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="marron">
+              <img src="imagenes/otros/cinto.png" width="100" alt="categorias" class="negro">
+            </div>
+            <div class="video">
+              <h4 class="titulo4">Exibición</h4>
+              <iframe width="854" height="480" src="https://www.youtube.com/embed/0afWMLpO5oE" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="dojo">
+        <div class="contenedor1">
+          <div class="texto">
+            <h3 class="titulo2">NUESTRO DOJO</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="logos">
+            <img src="imagenes/logos/karateLogo.jpg" width="250" alt="Logo Karate Shotokan">
+            <img src="imagenes/logos/bjjLogo.jpg" width="250" alt="Logo BJJ Gracie">
+            <img src="imagenes/logos/judoLogo.jpg" width="250" alt="Logo Judo Kodokan">
+            <img src="imagenes/logos/aikidoLogo.jpg" width="250" alt="Logo Aikido Iwama Ryu">
+          </div>
+          <div class="direccion">
+            <h4 class="titulo4"><a href="https://www.google.com.ar/maps/@-38.7051319,-62.276915,1347m/data=!3m1!1e3?hl=es">Estamos Aqui!!!</a></h4>
+            <img src="imagenes/dojo/dojo.jpg" alt="lugar de entrenamiento">
+          </div>
+        </div>
+      </section>
+      <section class="tienda" id="tienda">
+          <h3 class="titulo2">TIENDA </h3>
+          <div class="producto">
+            <h3 class="titulo1">Kimonos</h3>
+          </div>
+          <div class="contenedor2">
+              <div class="productosK">
+                  <div class="thumb">
+                      <img src="imagenes/productos/k-karate-blanco-adidas.jpg" width="300" alt="producto">
+                  </div>
+                  <div class="descripcion">
+                        <a href="#" class="tituloNombre">Kimono Karate</a>
+                        <p class="contenido">Marca: Adidas</p>
+                        <p class="contenido">Color: Blanco</p>
+                        <p class="contenido">Tipo: Liviano - Medio - Pesado</p>
+                        <p class="contenido">Talles: S - M - L - XL </p>
+                  </div>
+              </div>
+              <div class="productosK">
+                  <div class="thumb">
+                      <img src="imagenes/productos/k-karate-blanco-wtf.jpg" width="300" alt="producto">
+                  </div>
+                  <div class="descripcion">
+                        <a href="#" class="tituloNombre">Kimono Karate</a>
+                        <p class="contenido">Marca: WTF</p>
+                        <p class="contenido">Color: Blanco</p>
+                        <p class="contenido">Tipo: Liviano - Medio - Pesado</p>
+                        <p class="contenido">Talles: S - M - L - XL </p>
+                  </div>
+              </div>
+              <div class="productosK">
+                <div class="thumb">
+                    <img src="imagenes/productos/k-bjj-blanco-venum.jpg" width="300" alt="producto">
+                </div>
+                <div class="descripcion">
+                      <a href="#" class="tituloNombre">Kimono BJJ</a>
+                      <p class="contenido">Marca: Venum</p>
+                      <p class="contenido">Color: Blanco</p>
+                      <p class="contenido">Tipo: Medio - Pesado</p>
+                      <p class="contenido">Talles: A1 - A2 - A3 </p>
+                </div>
+              </div>
+              <div class="productosK">
+                <div class="thumb">
+                    <img src="imagenes/productos/k-bjj-blanco-jimae.jpg" width="300" alt="producto">
+                </div>
+                <div class="descripcion">
+                      <a href="#" class="tituloNombre">Kimono BJJ</a>
+                      <p class="contenido">Marca: Jimae</p>
+                      <p class="contenido">Color: Blanco</p>
+                      <p class="contenido">Tipo: Medio - Pesado</p>
+                      <p class="contenido">Talles: A1 - A2 - A3 </p>
+                </div>
+              </div>
+              <div class="productosK">
+                <div class="thumb">
+                    <img src="imagenes/productos/k-bjj-azul-venum.jpg" width="300" alt="producto">
+                </div>
+                <div class="descripcion">
+                      <a href="#" class="tituloNombre">Kimono BJJ</a>
+                      <p class="contenido">Marca: Venum</p>
+                      <p class="contenido">Color: Azul</p>
+                      <p class="contenido">Tipo: Medio - Pesado</p>
+                      <p class="contenido">Talles: A1 - A2 - A3 </p>
+                </div>
+              </div>
+              <div class="productosK">
+                <div class="thumb">
+                    <img src="imagenes/productos/k-bjj-azul-sekai.jpg" width="300" alt="producto">
+                </div>
+                <div class="descripcion">
+                      <a href="#" class="tituloNombre">Kimono BJJ</a>
+                      <p class="contenido">Marca: Sekai</p>
+                      <p class="contenido">Color: Azul</p>
+                      <p class="contenido">Tipo: Medio - Pesado</p>
+                      <p class="contenido">Talles: A1 - A2 - A3 </p>
+                </div>
+              </div>
+              <div class="productosK">
+                <div class="thumb">
+                    <img src="imagenes/productos/k-bjj-negro-venum.jpg" width="300" alt="producto">
+                </div>
+                <div class="descripcion">
+                      <a href="#" class="tituloNombre">Kimono BJJ</a>
+                      <p class="contenido">Marca: Venum</p>
+                      <p class="contenido">Color: Negro</p>
+                      <p class="contenido">Tipo: Medio - Pesado</p>
+                      <p class="contenido">Talles: A1 - A2 - A3 </p>
+                </div>
+              </div>
+              <div class="productosK">
+                <div class="thumb">
+                    <img src="imagenes/productos/k-bjj-negro-akama.jpg" width="300" alt="producto">
+                </div>
+                <div class="descripcion">
+                      <a href="#" class="tituloNombre">Kimono BJJ</a>
+                      <p class="contenido">Marca: Akama</p>
+                      <p class="contenido">Color: Negro</p>
+                      <p class="contenido">Tipo: Medio - Pesado</p>
+                      <p class="contenido">Talles: A1 - A2 - A3 </p>
+                </div>
+              </div>
+              <div class="productosK">
+                <div class="thumb">
+                    <img src="imagenes/productos/k-bjj-rosa-akama.jpg" width="300" alt="producto">
+                </div>
+                <div class="descripcion">
+                      <a href="#" class="tituloNombre">Kimono BJJ</a>
+                      <p class="contenido">Marca: Akama</p>
+                      <p class="contenido">Color: Rosa</p>
+                      <p class="contenido">Tipo: Medio - Pesado</p>
+                      <p class="contenido">Talles: A1 - A2 - A3 </p>
+                </div>
+              </div>
+              <div class="productosK">
+                <div class="thumb">
+                    <img src="imagenes/productos/k-bjj-rosa-koral.jpg" width="300" alt="producto">
+                </div>
+                <div class="descripcion">
+                      <a href="#" class="tituloNombre">Kimono BJJ</a>
+                      <p class="contenido">Marca: Koral</p>
+                      <p class="contenido">Color: Rosa</p>
+                      <p class="contenido">Tipo: Medio - Pesado</p>
+                      <p class="contenido">Talles: A1 - A2 - A3 </p>
+                </div>
+              </div>
+              <div class="productosK">
+                <div class="thumb">
+                    <img src="imagenes/productos/k-judo-azul-kappa.jpg" width="300" alt="producto">
+                </div>
+                <div class="descripcion">
+                      <a href="#" class="tituloNombre">Kimono Judo</a>
+                      <p class="contenido">Marca: Kappa</p>
+                      <p class="contenido">Color: Blanco - Azul</p>
+                      <p class="contenido">Tipo: Medio - Pesado</p>
+                      <p class="contenido">Talles: S - M - L - XL </p>
+                </div>
+              </div>
+              <div class="productosK">
+                <div class="thumb">
+                    <img src="imagenes/productos/k-judo-adidas.jpg" width="300" alt="producto">
+                </div>
+                <div class="descripcion">
+                      <a href="#" class="tituloNombre">Kimono Judo</a>
+                      <p class="contenido">Marca: Adidas</p>
+                      <p class="contenido">Color: Blanco - Azul</p>
+                      <p class="contenido">Tipo: Medio - Pesado</p>
+                      <p class="contenido">Talles: S - M - L - XL </p>
+                </div>
+              </div>
+              <div class="productosK">
+                <div class="thumb">
+                    <img src="imagenes/productos/k-aikido-oriente.jpg" width="300" alt="producto">
+                </div>
+                <div class="descripcion">
+                      <a href="#" class="tituloNombre">Kimono Aikido</a>
+                      <p class="contenido">Marca: Oriente</p>
+                      <p class="contenido">Color: Blanco - Negro</p>
+                      <p class="contenido">Tipo: Liviano - Medio</p>
+                      <p class="contenido">Talles: S - M - L - XL </p>
+                </div>
+              </div>
+              <div class="productosK">
+                <div class="thumb">
+                    <img src="imagenes/productos/k-aikido-shiai.jpg" width="300" alt="producto">
+                </div>
+                <div class="descripcion">
+                      <a href="#" class="tituloNombre">Kimono Aikido con Hakama</a>
+                      <p class="contenido">Marca: Shiai</p>
+                      <p class="contenido">Color: Blanco - Negro</p>
+                      <p class="contenido">Tipo: Liviano - Medio</p>
+                      <p class="contenido">Talles: S - M - L - XL </p>
+                </div>
+              </div>
+          </div>
+          <div class="producto">
+            <h3 class="titulo1">Cinturones y Faixas</h3>
+          </div>
+          <div class="contenedor2">
+              <div class="productosCF">
+                  <div class="thumb">
+                      <img src="imagenes/productos/cinturon-adidas.jpg" width="300" alt="producto">
+                  </div>
+                  <div class="descripcion">
+                        <a href="#" class="tituloNombre">Cinturon Karate/Aikido/Judo</a>
+                        <p class="contenido">Marca: Adidas</p>
+                        <p class="contenido">Color: Todos los Colores</p>
+                        <p class="contenido">Tipo: Medio - Pesado</p>
+                        <p class="contenido">Largo: 2m - 2.5m - 3m </p>
+                  </div>
+              </div>
+              <div class="productosCF">
+                  <div class="thumb">
+                      <img src="imagenes/productos/cinturon-fante.jpg" width="300" alt="producto">
+                  </div>
+                  <div class="descripcion">
+                        <a href="#" class="tituloNombre">Cinturon Karate/Aikido/Judo</a>
+                        <p class="contenido">Marca: Fante</p>
+                        <p class="contenido">Color: Todos los Colores</p>
+                        <p class="contenido">Tipo: Medio - Pesado</p>
+                        <p class="contenido">Largo: 2m - 2.5m - 3m </p>
+                  </div>
+              </div>
+              <div class="productosCF">
+                  <div class="thumb">
+                      <img src="imagenes/productos/cinturon-kyokushinkai.jpg" width="300" alt="producto">
+                  </div>
+                  <div class="descripcion">
+                        <a href="#" class="tituloNombre">Cinturon Karate/Aikido/Judo</a>
+                        <p class="contenido">Marca: kyokushinkai</p>
+                        <p class="contenido">Color: Todos los Colores</p>
+                        <p class="contenido">Tipo: Liviano - Medio</p>
+                        <p class="contenido">Largo: 2m - 2.5m - 3m </p>
+                  </div>
+              </div>
+              <div class="productosCF">
+                  <div class="thumb">
+                      <img src="imagenes/productos/cinturon-oriente.jpg" width="300" alt="producto">
+                  </div>
+                  <div class="descripcion">
+                        <a href="#" class="tituloNombre">Cinturon Karate/Aikido/Judo</a>
+                        <p class="contenido">Marca: Oriente</p>
+                        <p class="contenido">Color: Todos los Colores</p>
+                        <p class="contenido">Tipo: Liviano</p>
+                        <p class="contenido">Largo: 2m - 2.5m - 3m </p>
+                  </div>
+              </div>
+              <div class="productosCF">
+                  <div class="thumb">
+                      <img src="imagenes/productos/faixa-koral.jpg" width="300" alt="producto">
+                  </div>
+                  <div class="descripcion">
+                        <a href="#" class="tituloNombre">Faixa BJJ</a>
+                        <p class="contenido">Marca: Koral</p>
+                        <p class="contenido">Color: Todos los Colores</p>
+                        <p class="contenido">Tipo: Pesado</p>
+                        <p class="contenido">Largo: 2m - 2.5m - 3m </p>
+                  </div>
+              </div>
+              <div class="productosCF">
+                  <div class="thumb">
+                      <img src="imagenes/productos/faixa-venum.jpg" width="300" alt="producto">
+                  </div>
+                  <div class="descripcion">
+                        <a href="#" class="tituloNombre">Faixa BJJ</a>
+                        <p class="contenido">Marca: Venum</p>
+                        <p class="contenido">Color: Todos los Colores</p>
+                        <p class="contenido">Tipo: Pesado</p>
+                        <p class="contenido">Largo: 2m - 2.5m - 3m </p>
+                  </div>
+              </div>
+          </div>
+          <div class="producto">
+            <h3 class="titulo1">Bucales</h3>
+          </div>
+          <div class="contenedor2">
+              <div class="productosB">
+                  <div class="thumb">
+                      <img src="imagenes/productos/bucal-sg.jpg" width="300" alt="producto">
+                  </div>
+                  <div class="descripcion">
+                        <a href="#" class="tituloNombre">Protectores Bucales</a>
+                        <p class="contenido">Marca: SG</p>
+                        <p class="contenido">Color: Todos los Colores</p>
+                  </div>
+              </div>
+              <div class="productosB">
+                  <div class="thumb">
+                          <img src="imagenes/productos/bucal-calofe.jpg" width="300" alt="producto">
+                  </div>
+                  <div class="descripcion">
+                          <a href="#" class="tituloNombre">Protectores Bucales</a>
+                          <p class="contenido">Marca: Calofe</p>
+                          <p class="contenido">Color: Azul - Blanco</p>
+                  </div>
+              </div>
+              <div class="productosB">
+                    <div class="thumb">
+                          <img src="imagenes/productos/bucal-adidas.jpg" width="300" alt="producto">
+                    </div>
+                    <div class="descripcion">
+                          <a href="#" class="tituloNombre">Protectores Bucales</a>
+                          <p class="contenido">Marca: Adidas</p>
+                          <p class="contenido">Color: Blanco - Negro</p>
+                    </div>
+              </div>
+              <div class="productosB">
+                    <div class="thumb">
+                          <img src="imagenes/productos/bucal-venum.jpg" width="300" alt="producto">
+                    </div>
+                    <div class="descripcion">
+                          <a href="#" class="tituloNombre">Protectores Bucales</a>
+                          <p class="contenido">Marca: Venum</p>
+                          <p class="contenido">Color: Negro</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- PIE DE PAGINA -->
+      <footer>
+          <section id="contacto" class="contacto">
+            <div class="contenedor">
+                  <h3 class="titulo2">Contacto</h3>
+                  <div class="contenedor-contacto">
+                    <form class="formulario" id="formulario" action="" name="formulario">
+                      <div class="contenedor-inputs">
+                        <input type="text" name="nombre" placeholder="Nombre:">
+                        <input type="email" name="correo" placeholder="Correo:">
+                        <textarea name="mensaje" placeholder="Mensaje: "></textarea>
+
+                        <div class="contacto-actividad">
+                          <input type="radio" name="actividad" id="act-karate" value="karate">
+                          <label class="label-radio karate" for="act-karate">Karate</label>
+
+                          <input type="radio" name="actividad" id="act-bjj" value="bjj">
+                          <label class="label-radio bjj" for="act-bjj">Jiu-Jitsu</label>
+
+                          <input type="radio" name="actividad" id="act-judo" value="judo">
+                          <label class="label-radio judo" for="act-judo">Judo</label>
+
+                          <input type="radio" name="actividad" id="act-aikido" value="aikido">
+                          <label class="label-radio aikido" for="act-aikido">Aikido</label>
+                        </div>
+
+                        <div class="terminos">
+                          <input type="checkbox" name="terminos" id="terminos">
+                          <label for="terminos"><a href="terinos-condiciones.html">Terminos y Condiciones de Uso</a></label>
+                        </div>
+
+                        <ul class="error" id="error">
+                        </ul>
+                      </div>
+
+                      <input type="submit" class="btn" value="Registrarte">
+                  </div>
+
+            </div>
+          </section>
+          <section class="redes-sociales">
+              <!--pego el codigo html del icono de la pag font awsome dentro de la etiqueta a-->
+              <a href="#" class="facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+              <a href="#" class="google-mas"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="#" class="youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+          </section>
+          <div class="autor">
+            <p>autor: braian d. vaylet - Dojo "Southern Warriors" - Todos los Derechos Reservados</p>
+          </div>
+      </footer>
+    </div>
+    <script src="validar.js" charset="utf-8"></script>
+  </body>
+</html>

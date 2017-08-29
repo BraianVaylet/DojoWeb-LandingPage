@@ -7,13 +7,16 @@ body {
   font-family: 'Dosis', sans-serif;
   color: rgba(79, 79, 77, 0.96);
   font-size: 18px; }
-  body .wtf {
+  body .contenedor {
     background: #fff;
     width: 90%;
     max-width: 1500px;
     margin: auto;
     padding: 30px 0px;
     overflow: hidden; }
+
+.contenedor-contacto {
+  padding: 20px; }
 
 .contenedor1 {
   display: flex;
@@ -27,24 +30,35 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  text-align: center; }
+  text-align: center;
+  background: rgba(92, 90, 90, 0.95); }
+
+.contenedorH {
+  background: rgba(240, 239, 231, 0.92); }
 
 .titulo1 {
-  font-size: 40px; }
+  font-size: 40px;
+  margin: 60px auto; }
 
 .titulo2, .tituloNombre {
-  font-size: 25px; }
+  font-size: 25px;
+  margin: 60px auto; }
 
 .titulo3 {
-  font-size: 18px; }
+  font-size: 18px;
+  margin: 30px auto; }
+
+.titulo4 {
+  font-size: 18px;
+  margin: 30px auto; }
 
 .titulo1,
 .titulo2,
 .titulo3,
+.titulo4,
 .tituloNombre {
   text-align: center;
   text-decoration: none;
-  margin: 60px auto;
   color: rgba(92, 90, 90, 0.95); }
 
 header {
@@ -68,11 +82,18 @@ header {
           margin: 10px auto;
           padding: 10px 20px; }
           header nav ul li a:hover {
-            opacity: 0.5;
-            text-decoration: underline; }
+            background: #0f0f0f;
+            color: #fff;
+            border-radius: 6px; }
+          header nav ul li a:focus {
+            background: #000;
+            color: #fff;
+            border-radius: 6px; }
 
-.Acerca-de-nosotros {
-  padding: 20px; }
+.contenedorH .texto {
+  margin: 20px; }
+  .contenedorH .texto ul {
+    list-style: none; }
 
 .contenedor2 {
   display: flex;
@@ -85,6 +106,15 @@ header {
     .contenedor2 .actividad .thumb {
       width: 100%;
       margin-bottom: 10px; }
+    .contenedor2 .actividad a:hover {
+      text-decoration: underline;
+      background: #0f0f0f;
+      color: #fff;
+      border-radius: 6px; }
+    .contenedor2 .actividad a:focus {
+      background: #000;
+      color: #fff;
+      border-radius: 6px; }
 
 .tabla,
 .dias {
@@ -116,90 +146,241 @@ table td:hover {
   justify-content: space-around;
   background: rgba(240, 239, 231, 0.92); }
   .contenedor2 .contenedorH {
-    width: 35%;
-    margin: 10px; }
+    width: 35%; }
     .contenedor2 .contenedorH .imagH {
       width: 100%;
-      margin-bottom: 10px;
-      margin-bottom: 40px; }
+      margin: 40px 20px; }
+
+.data {
+  width: 50%;
+  max-width: 500px;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 20px; }
+
+.imagH .blanco {
+  padding: 10px;
+  border: 2px solid rgba(203, 199, 200, 0.93);
+  background: #fff;
+  border-radius: 20px;
+  opacity: 0.8; }
+  .imagH .blanco:hover {
+    border: 2px solid #fff;
+    opacity: 1; }
+
+.imagH .amarillo {
+  padding: 10px;
+  border: 2px solid rgba(203, 199, 200, 0.93);
+  background: rgba(221, 219, 31, 0.8);
+  border-radius: 20px;
+  opacity: 0.8; }
+  .imagH .amarillo:hover {
+    border: 2px solid rgba(221, 219, 31, 0.8);
+    opacity: 1; }
+
+.imagH .verde {
+  padding: 10px;
+  border: 2px solid rgba(203, 199, 200, 0.93);
+  background: rgba(37, 152, 23, 0.8);
+  border-radius: 20px;
+  opacity: 0.8; }
+  .imagH .verde:hover {
+    border: 2px solid rgba(37, 152, 23, 0.8);
+    opacity: 1; }
+
+.imagH .azul {
+  padding: 10px;
+  border: 2px solid rgba(203, 199, 200, 0.93);
+  background: rgba(26, 51, 223, 0.8);
+  border-radius: 20px;
+  opacity: 0.8; }
+  .imagH .azul:hover {
+    border: 2px solid rgba(26, 51, 223, 0.8);
+    opacity: 1; }
+
+.imagH .marron {
+  padding: 10px;
+  border: 2px solid rgba(203, 199, 200, 0.93);
+  background: rgba(105, 60, 24, 0.8);
+  border-radius: 20px;
+  opacity: 0.8; }
+  .imagH .marron:hover {
+    border: 2px solid rgba(105, 60, 24, 0.8);
+    opacity: 1; }
+
+.imagH .negro {
+  padding: 10px;
+  border: 2px solid rgba(203, 199, 200, 0.93);
+  background: rgba(3, 3, 3, 0.8);
+  border-radius: 20px;
+  opacity: 0.8; }
+  .imagH .negro:hover {
+    border: 2px solid rgba(3, 3, 3, 0.8);
+    opacity: 1; }
+
+.imagH .violeta {
+  padding: 10px;
+  border: 2px solid rgba(203, 199, 200, 0.93);
+  background: rgba(97, 27, 166, 0.8);
+  border-radius: 20px;
+  opacity: 0.8; }
+  .imagH .violeta:hover {
+    border: 2px solid rgba(97, 27, 166, 0.8);
+    opacity: 1; }
+
+.imagH .naranja {
+  padding: 10px;
+  border: 2px solid rgba(203, 199, 200, 0.93);
+  background: rgba(250, 157, 0, 0.8);
+  border-radius: 20px;
+  opacity: 0.8; }
+  .imagH .naranja:hover {
+    border: 2px solid rgba(250, 157, 0, 0.8);
+    opacity: 1; }
+
+.imagH .rojo {
+  padding: 10px;
+  border: 2px solid rgba(203, 199, 200, 0.93);
+  background: rgba(250, 0, 0, 0.8);
+  border-radius: 20px;
+  opacity: 0.8; }
+  .imagH .rojo:hover {
+    border: 2px solid rgba(250, 0, 0, 0.8);
+    opacity: 1; }
+
+.imagH .byr {
+  padding: 10px;
+  border: 2px solid rgba(250, 0, 0, 0.8);
+  background: #fff;
+  border-radius: 20px;
+  opacity: 0.8; }
+  .imagH .byr:hover {
+    border: 2px solid rgba(250, 0, 0, 0.8);
+    opacity: 1; }
 
 .dojo {
   margin: 20px auto; }
+  .dojo .logos {
+    padding: 20px;
+    margin: 20px; }
+    .dojo .logos img {
+      margin-left: 10px; }
+  .dojo .direccion {
+    background: rgba(240, 239, 231, 0.92); }
+    .dojo .direccion img {
+      border-radius: 20px; }
+    .dojo .direccion a {
+      text-decoration: none;
+      color: rgba(79, 79, 77, 0.96);
+      font-size: 20px; }
+      .dojo .direccion a:hover {
+        background: #0f0f0f;
+        color: #fff;
+        text-decoration: underline;
+        padding: 20px;
+        border-radius: 20px; }
 
-footer .contacto {
-  padding: 60px 0; }
-
-footer .contacto .titulo2 {
-  font-size: 34px;
-  line-height: 34px;
-  margin-bottom: 40px;
-  font-weight: 300;
-  text-align: center; }
-
-footer .contacto .formulario {
-  /*contenedor padre*/
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; }
-
-footer .contacto .formulario input[type="text"],
-footer .contacto .formulario input[type="email"],
-footer .contacto .formulario input[type="text"],
-footer .contacto .formulario select,
-footer .contacto .formulario textarea {
-  border: 2px solid #cecece;
-  border-radius: 5px;
-  padding: 15px 20px;
-  font-size: 20px;
-  color: rgba(203, 199, 200, 0.93); }
-  footer .contacto .formulario input[type="text"]:hover,
-  footer .contacto .formulario input[type="email"]:hover,
-  footer .contacto .formulario input[type="text"]:hover,
-  footer .contacto .formulario select:hover,
-  footer .contacto .formulario textarea:hover {
-    border: 2px solid rgba(238, 17, 63, 0.95);
-    opacity: 0.5; }
-  footer .contacto .formulario input[type="text"]:focus,
-  footer .contacto .formulario input[type="email"]:focus,
-  footer .contacto .formulario input[type="text"]:focus,
-  footer .contacto .formulario select:focus,
-  footer .contacto .formulario textarea:focus {
-    border: 2px solid rgba(238, 17, 63, 0.95);
-    opacity: 0.8; }
-
-footer .contacto .formulario input[type="text"],
-footer .contacto .formulario input[type="email"],
-footer .contacto .formulario input[type="text"],
-footer .contacto .formulario select {
-  width: 40%;
-  margin: 15px 20px; }
-
-footer .contacto .formulario textarea {
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+  display: block;
+  /* para q abarque 1l 100% de lo q puedan y se pongan uno debajo de otro */
   width: 100%;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-family: calibri;
+  font-size: 18px; }
+
+.formulario textarea {
   height: 100px;
   min-height: 100px;
-  max-height: 200px;
-  margin: 15px 20px; }
+  max-height: 200px; }
 
-footer .contacto .formulario .boton {
-  margin: auto;
-  /* para centrarlo */
-  background: rgba(92, 90, 90, 0.95);
+.formulario input[type="radio"] {
+  display: none;
+  /* le quitamos los circulos(check) */ }
+
+.formulario .contacto-actividad {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px; }
+
+.formulario .contacto-actividad .karate,
+.formulario .contacto-actividad .bjj,
+.formulario .contacto-actividad .judo,
+.formulario .contacto-actividad .aikido {
+  border-radius: 6px; }
+
+.formulario .label-radio {
+  background: rgba(203, 199, 200, 0.93);
+  opacity: 0.8;
   color: #fff;
-  border: none;
-  border-radius: 20px;
-  padding: 15px 40px;
-  opacity: 0.5; }
+  padding: 10px;
+  text-align: center;
+  width: 45%;
+  cursor: pointer;
+  margin-bottom: 20px; }
 
-footer .contacto .formulario .boton:hover {
-  opacity: 1; }
+.formulario .label-radio:hover {
+  opacity: 1;
+  background: #000; }
+
+.formulario input[type="radio"]:checked + .label-radio {
+  background: #000; }
+
+.formulario .terminos {
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 20px; }
+  .formulario .terminos label {
+    margin-left: 10px; }
+    .formulario .terminos label a {
+      text-decoration: none;
+      color: rgba(66, 66, 66, 0.72); }
+      .formulario .terminos label a:hover {
+        text-decoration: underline; }
+
+.formulario .error {
+  display: none;
+  margin: 20px 0;
+  border-radius: 6px;
+  background: rgba(27, 113, 203, 0.73);
+  color: #fff;
+  padding: 15px 10px;
+  padding-left: 40px; }
+
+.formulario .btn {
+  width: 100%;
+  text-align: center;
+  background: rgba(203, 199, 200, 0.93);
+  color: #fff;
+  display: block;
+  padding: 15px 10px;
+  border-radius: 0 0 6px 6px;
+  font-family: calibri;
+  font-size: 18px;
+  cursor: pointer;
+  border: none; }
+
+.formulario .btn:hover {
+  background: #0f0f0f;
+  border: none; }
+
+.formulario .btn:focus {
+  background: #000;
+  border: none; }
 
 /* ---- ---- FOOTER (redes sociales)---- ---- */
 footer .redes-sociales {
   background: rgba(92, 90, 90, 0.95);
   padding: 40px 0px; }
 
-footer .redes-sociales .contenedor {
+footer .redes-sociales {
   display: flex;
   justify-content: center; }
 
@@ -226,7 +407,32 @@ footer .redes-sociales .instagram:hover {
 footer .redes-sociales .youtube:hover {
   background: #cd201f; }
 
-footer .redes-sociales .whatsapp:hover {
-  background: #25d366; }
+/* ---- ---- FOOTER (autor)---- ---- */
+footer .autor {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 20px;
+  background: #000;
+  color: #fff; }
+
+.contenedor2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between; }
+  .contenedor2 .productosK,
+  .contenedor2 .productosCF,
+  .contenedor2 .productosB {
+    width: 28%;
+    margin: 10px; }
+    .contenedor2 .productosK .thumb,
+    .contenedor2 .productosCF .thumb,
+    .contenedor2 .productosB .thumb {
+      width: 100%;
+      margin-bottom: 10px; }
+
+.producto h3 {
+  text-decoration: underline; }
 
 /*# sourceMappingURL=estilos.css.map */

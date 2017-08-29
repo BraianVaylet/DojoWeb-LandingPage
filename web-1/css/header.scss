@@ -1,6 +1,5 @@
 //DUDAS: COMO HACER Q EL NAV OCUPE EL 100% DE LA PANTALLA.
 
-
 header {
   background: $colorBaseBlanco1;
     h1 {
@@ -24,8 +23,15 @@ header {
           padding: 10px 20px;
 
           &:hover {
-            opacity: 0.5;
-            text-decoration: underline;
+            // opacity: 0.8;
+            background: $colorPrimario;
+            color: #fff;
+            border-radius: 6px;
+          }
+          &:focus {
+            background: $colorFocus;
+            color: #fff;
+            border-radius: 6px;
           }
         }
       }

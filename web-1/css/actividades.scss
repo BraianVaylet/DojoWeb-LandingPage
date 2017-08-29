@@ -10,5 +10,18 @@
       width: 100%;
       margin-bottom: 10px;
     }
+    a {
+      &:hover {
+        text-decoration: underline;
+        background: $colorPrimario;
+        color: #fff;
+        border-radius: 6px;
+        }
+      &:focus {
+        background: $colorFocus;
+        color: #fff;
+        border-radius: 6px;
+        }
+      }
+    }
   }
-}

@@ -1,20 +1,19 @@
 /*
 Error: Undefined variable: "$colorBaseBlanco1".
-        on line 5 of C:\Users\Braian\Desktop\dWeb\CursoPHP-comunidadIT\webInstitucional\css\header.scss
+        on line 4 of C:\Users\Braian\Desktop\dWeb\CursoPHP-comunidadIT\Proyectos\web-1\css\header.scss
 
 1: //DUDAS: COMO HACER Q EL NAV OCUPE EL 100% DE LA PANTALLA.
 2: 
-3: 
-4: header {
-5:   background: $colorBaseBlanco1;
-6:     h1 {
-7:       font-size: 50px;
-8:     }
-9:   nav {
-10:     display: flex;
+3: header {
+4:   background: $colorBaseBlanco1;
+5:     h1 {
+6:       font-size: 50px;
+7:     }
+8:   nav {
+9:     display: flex;
 
 Backtrace:
-C:\Users\Braian\Desktop\dWeb\CursoPHP-comunidadIT\webInstitucional\css\header.scss:5
+C:\Users\Braian\Desktop\dWeb\CursoPHP-comunidadIT\Proyectos\web-1\css\header.scss:4
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -61,4 +60,4 @@ C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$colorBaseBlanco1\".\A         on line 5 of C:\Users\Braian\Desktop\dWeb\CursoPHP-comunidadIT\webInstitucional\css\header.scss\A \A 1: //DUDAS: COMO HACER Q EL NAV OCUPE EL 100% DE LA PANTALLA.\A 2: \A 3: \A 4: header {\A 5:   background: $colorBaseBlanco1;\A 6:     h1 {\A 7:       font-size: 50px;\A 8:     }\A 9:   nav {\A 10:     display: flex;"; }
+  content: "Error: Undefined variable: \"$colorBaseBlanco1\".\A         on line 4 of C:\Users\Braian\Desktop\dWeb\CursoPHP-comunidadIT\Proyectos\web-1\css\header.scss\A \A 1: //DUDAS: COMO HACER Q EL NAV OCUPE EL 100% DE LA PANTALLA.\A 2: \A 3: header {\A 4:   background: $colorBaseBlanco1;\A 5:     h1 {\A 6:       font-size: 50px;\A 7:     }\A 8:   nav {\A 9:     display: flex;"; }
