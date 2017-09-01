@@ -1,16 +1,32 @@
 .contenedor2 {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
   background: $colorBaseBlanco2;
     .contenedorH {
       width: 35%;
-      .imagH {
+        div.imagH {
         width: 100%;
-        margin: 40px 20px;
+        vertical-align: top;
+        border-radius: 20px;
+        height: auto;
+        // margin: 40px 20px;
       }
     }
   }
+
+      //
+      // .thumb {
+      //   width: 100%;
+      //   margin-bottom: 10px;
+      //   img {
+      //     width: 100%;
+      //     vertical-align: top;
+      //     border-radius: 20px;
+      //     height: auto;
+      //   }
+      // }
 
 .data {
   width: 50%;

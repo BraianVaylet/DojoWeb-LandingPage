@@ -1,0 +1,16 @@
+@media screen and (max-width: 800px) {
+  body {
+    background: red; }
+
+  .contenedor2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; }
+    .contenedor2 .actividad {
+      width: 80%;
+      margin: 10px auto; }
+
+  table {
+    width: 500px; } }
+
+/*# sourceMappingURL=media-queries.css.map */

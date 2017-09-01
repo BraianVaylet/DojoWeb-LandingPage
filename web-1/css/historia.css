@@ -1,20 +1,21 @@
 /*
 Error: Undefined variable: "$colorBaseBlanco2".
-        on line 5 of C:\Users\Braian\Desktop\dWeb\CursoPHP-comunidadIT\Proyectos\web-1\css\historia.scss
+        on line 6 of C:\Users\Braian\Desktop\dWeb\CursoPHP-comunidadIT\Proyectos\web-1\css\historia.scss
 
 1: .contenedor2 {
 2:   display: flex;
 3:   flex-direction: row;
-4:   justify-content: space-around;
-5:   background: $colorBaseBlanco2;
-6:     .contenedorH {
-7:       width: 35%;
-8:       .imagH {
-9:         width: 100%;
-10:         margin: 40px 20px;
+4:   flex-wrap: wrap;
+5:   justify-content: space-between;
+6:   background: $colorBaseBlanco2;
+7:     .contenedorH {
+8:       width: 35%;
+9:         div.imagH {
+10:         width: 100%;
+11:         vertical-align: top;
 
 Backtrace:
-C:\Users\Braian\Desktop\dWeb\CursoPHP-comunidadIT\Proyectos\web-1\css\historia.scss:5
+C:\Users\Braian\Desktop\dWeb\CursoPHP-comunidadIT\Proyectos\web-1\css\historia.scss:6
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -61,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$colorBaseBlanco2\".\A         on line 5 of C:\Users\Braian\Desktop\dWeb\CursoPHP-comunidadIT\Proyectos\web-1\css\historia.scss\A \A 1: .contenedor2 {\A 2:   display: flex;\A 3:   flex-direction: row;\A 4:   justify-content: space-around;\A 5:   background: $colorBaseBlanco2;\A 6:     .contenedorH {\A 7:       width: 35%;\A 8:       .imagH {\A 9:         width: 100%;\A 10:         margin: 40px 20px;"; }
+  content: "Error: Undefined variable: \"$colorBaseBlanco2\".\A         on line 6 of C:\Users\Braian\Desktop\dWeb\CursoPHP-comunidadIT\Proyectos\web-1\css\historia.scss\A \A 1: .contenedor2 {\A 2:   display: flex;\A 3:   flex-direction: row;\A 4:   flex-wrap: wrap;\A 5:   justify-content: space-between;\A 6:   background: $colorBaseBlanco2;\A 7:     .contenedorH {\A 8:       width: 35%;\A 9:         div.imagH {\A 10:         width: 100%;\A 11:         vertical-align: top;"; }

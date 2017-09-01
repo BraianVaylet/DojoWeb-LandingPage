@@ -1,14 +1,16 @@
 .contenedor2 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
   .actividad {
     width: 45%;
     margin: 10px;
     .thumb {
       width: 100%;
       margin-bottom: 10px;
+      img {
+        width: 100%;
+        vertical-align: top;
+        border-radius: 20px;
+        height: auto;
+      }
     }
     a {
       &:hover {
