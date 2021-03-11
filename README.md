@@ -4,7 +4,7 @@
 
 ---
 
-Demo: [link](https://braianvaylet.github.io/DojoWeb-LandingPage/)
+Demo: [link](https://braianvaylet.github.io/DojoWeb-LandingPage-ComIT/)
 
 ---
 
